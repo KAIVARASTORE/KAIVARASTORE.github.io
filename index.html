@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KAIVARA Fashion & Lifestyle Store</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#fff;
+color:#333;
+}
+
+/* Header */
+
+header{
+background:#000;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#fff;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:25px;
+}
+
+/* Hero */
+
+.hero{
+height:90vh;
+background:
+linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+url('https://images.unsplash.com/photo-1441986300917-64674bd600d8');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero-content h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+.hero-content p{
+font-size:20px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+background:#d4af37;
+padding:15px 35px;
+color:#000;
+text-decoration:none;
+font-weight:600;
+border-radius:50px;
+}
+
+/* Categories */
+
+.categories{
+padding:80px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:40px;
+margin-bottom:50px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:#fafafa;
+padding:40px;
+text-align:center;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.card h3{
+margin-top:15px;
+}
+
+/* Preorder Section */
+
+.preorder{
+background:#f8f8f8;
+padding:80px 8%;
+text-align:center;
+}
+
+.steps{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+}
+
+.step{
+background:white;
+padding:30px;
+width:250px;
+border-radius:15px;
+}
+
+/* Footer */
+
+footer{
+background:#000;
+color:white;
+padding:40px;
+text-align:center;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">KAIVARA</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Shop</a>
+<a href="#">About</a>
+<a href="#">Track Order</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<h1>Fashion. Lifestyle. Elegance.</h1>
+
+<p>
+Discover premium fashion, shoes, jewelry,
+kids wear, and home essentials sourced globally.
+</p>
+
+<a href="#" class="btn">Shop Collection</a>
+
+</div>
+
+</section>
+
+<section class="categories">
+
+<h2 class="section-title">Shop By Category</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Women's Fashion</h3>
+</div>
+
+<div class="card">
+<h3>Men's Fashion</h3>
+</div>
+
+<div class="card">
+<h3>Shoes</h3>
+</div>
+
+<div class="card">
+<h3>Kids Wear</h3>
+</div>
+
+<div class="card">
+<h3>Jewelry</h3>
+</div>
+
+<div class="card">
+<h3>Home Appliances</h3>
+</div>
+
+</div>
+
+</section>
+
+<section class="preorder">
+
+<h2 class="section-title">How Our Pre-Order Process Works</h2>
+
+<div class="steps">
+
+<div class="step">
+<h3>1. Order</h3>
+<p>Choose your favorite items.</p>
+</div>
+
+<div class="step">
+<h3>2. Source</h3>
+<p>We source directly from trusted suppliers in China.</p>
+</div>
+
+<div class="step">
+<h3>3. Ship</h3>
+<p>Your order is prepared and shipped.</p>
+</div>
+
+<div class="step">
+<h3>4. Deliver</h3>
+<p>Receive your products at your doorstep.</p>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>KAIVARA Fashion & Lifestyle Store</h3>
+
+<p>
+Your trusted destination for fashion,
+lifestyle products and premium pre-order shopping.
+</p>
+
+</footer>
+
+</body>
+</html>
